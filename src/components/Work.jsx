@@ -1,6 +1,6 @@
 import React from "react";
-import WorkImg from "../assets/workImg.jpeg";
-import realEstate from "../assets/realestate.jpg";
+import GameHub from "../assets/gamehub.JPG";
+import Mosh from "../assets/mosh.JPG";
 
 const Work = () => {
   return (
@@ -17,11 +17,11 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${GameHub})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className=" text-center opacity-0 group-hover:opacity-100">
               <span className="text-4xl font-bold text-white tracking-wider">
                 React Js Application
               </span>
@@ -41,21 +41,21 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${Mosh})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="text-center opacity-0 group-hover:opacity-100">
               <span className="text-4xl font-bold text-white tracking-wider">
                 React Js Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://moshexample.netlify.app">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/BoronenkoTimurs/firstWebPage">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Code
                   </button>
