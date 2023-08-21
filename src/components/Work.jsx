@@ -23,16 +23,16 @@ const Work = () => {
             {/* Hover Effects */}
             <div className=" text-center opacity-0 group-hover:opacity-100">
               <span className="text-4xl font-bold text-white tracking-wider">
-                React Js Application
+                TypeScript Application
               </span>
               <div className="pt-8 text-center">
                 <a href="https://ggaming-hub.netlify.app">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
+                  <button className="hover:bg-emerald-600 hover:scale-110 duration-500 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/BoronenkoTimurs/game-hub">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
+                  <button className="hover:bg-emerald-600 hover:scale-110 duration-500 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Code
                   </button>
                 </a>
@@ -47,16 +47,16 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="text-center opacity-0 group-hover:opacity-100">
               <span className="text-4xl font-bold text-white tracking-wider">
-                React Js Application
+                HTML/CSS Application
               </span>
               <div className="pt-8 text-center">
                 <a href="https://moshexample.netlify.app">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
+                  <button className="hover:bg-emerald-600 hover:scale-110 duration-500 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/BoronenkoTimurs/firstWebPage">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
+                  <button className="hover:bg-emerald-600 hover:scale-110 duration-500 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold">
                     Code
                   </button>
                 </a>
