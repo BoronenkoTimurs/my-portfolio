@@ -93,7 +93,7 @@ const NavBar = () => {
       {/* Social icon */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#390099]">
             <a
               className="flex justify-between items-start w-full text-gray-300"
               href="linkedin.com/in/timur-boronenko-7586b326a"
@@ -101,7 +101,7 @@ const NavBar = () => {
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6C0079]">
             <a
               className="flex justify-between items-start w-full text-gray-300"
               href="https://github.com/BoronenkoTimurs"
@@ -109,7 +109,7 @@ const NavBar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#9E0059]">
             <a
               className="flex justify-between items-start w-full text-gray-300"
               // TODO: fix link on email
@@ -119,7 +119,7 @@ const NavBar = () => {
               <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FF0054]">
             <a
               className="flex justify-between items-start w-full text-gray-300"
               href="https://drive.google.com/file/d/12DGGR1IKyzSQGqV-KAAv3ILNNZIJKDgI/view?usp=sharing"

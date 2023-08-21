@@ -21,7 +21,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto cursor-pointer content-div"
           >
             {/* Hover Effects */}
-            <div className=" text-center opacity-0 group-hover:opacity-100">
+            <div className=" text-center opacity-0 group-hover:opacity-100 duration-500">
               <span className="text-4xl font-bold text-white tracking-wider">
                 TypeScript Application
               </span>
@@ -45,7 +45,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto cursor-pointer content-div"
           >
             {/* Hover Effects */}
-            <div className="text-center opacity-0 group-hover:opacity-100">
+            <div className="text-center opacity-0 group-hover:opacity-100 duration-500">
               <span className="text-4xl font-bold text-white tracking-wider">
                 HTML/CSS Application
               </span>
