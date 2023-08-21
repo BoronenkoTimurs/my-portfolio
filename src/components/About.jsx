@@ -14,15 +14,20 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8">
           <div className="sm:text-right text-4xl font-bold">
-            <p>Hi, i am Timurs, nice to meet you! Please take a loor around!</p>
+            <p>Hi, i am Timurs, nice to meet you! Please take a look around!</p>
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              facilisi. Sed aliquam justo eget diam imperdiet, vel convallis
-              tortor lacinia. In hac habitasse platea dictumst. Quisque nec ex
-              vel nisi bibendum congue. Suspendisse potenti. Sed ut mi nec purus
-              consequat vulputate.
+              I started my journey in IT two years ago at university, but it was
+              hard to decide what I wanted and where to start in this endless
+              ocean of knowledge. And after 2 years, I finally came to the
+              discipline, clear goals and deadlines for myself, which has
+              already brought its benefits in the form of knowledge in web
+              development and QA.
+              <br />
+              As for now, I am still building my knowledge base in programming
+              and actively looking for internship in Programming in order to
+              build even deeper knowledge in this field.
             </p>
           </div>
         </div>

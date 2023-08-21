@@ -18,7 +18,7 @@ const Work = () => {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${GameHub})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto cursor-pointer content-div"
           >
             {/* Hover Effects */}
             <div className=" text-center opacity-0 group-hover:opacity-100">
@@ -42,7 +42,7 @@ const Work = () => {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Mosh})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto cursor-pointer content-div"
           >
             {/* Hover Effects */}
             <div className="text-center opacity-0 group-hover:opacity-100">
