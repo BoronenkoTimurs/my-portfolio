@@ -10,7 +10,7 @@ const Home = () => {
           Timurs Boronenko
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I am a Full Stack Developer!
+          I am a Front-end Developer!
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
