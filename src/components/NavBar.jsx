@@ -127,9 +127,9 @@ const NavBar = () => {
         <li>
           <button onClick={switchMode}>
             {!darkMode ? (
-              <BsSun className="cursor-pointer hover:text-blue-500" />
+              <BsSun className="cursor-pointer text-4xl hover:text-blue-500" />
             ) : (
-              <BiSolidMoon className="cursor-pointer hover:text-blue-500" />
+              <BiSolidMoon className="cursor-pointer text-4xl hover:text-blue-500" />
             )}
           </button>
         </li>
@@ -157,7 +157,6 @@ const NavBar = () => {
             <li className="pl-4 pr-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#9E0059]">
               <a
                 className="flex justify-between items-start w-full text-gray-300"
-                // TODO: fix link on email
                 href="#"
               >
                 Email
