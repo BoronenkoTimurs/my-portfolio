@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   FaBars,
   FaTimes,
@@ -8,6 +8,8 @@ import {
   FaMailBulk,
   FaMailchimp,
 } from "react-icons/fa";
+import { BsSun } from "react-icons/bs";
+import { BiSolidMoon } from "react-icons/bi";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import logo from "../assets/logo1.png";
@@ -18,8 +20,28 @@ const NavBar = () => {
   const handleClick = () => {
     setNav(!nav);
   };
+
+  const [darkMode, setDarkMode] = useState(undefined);
+  const element = window.document.documentElement;
+
+  const switchMode = () => {
+    setDarkMode(!darkMode);
+  };
+
+  useEffect(() => {
+    if (darkMode) {
+      localStorage.setItem("darkMode", "true");
+      element.classList.add("dark");
+    } else if (darkMode === false) {
+      localStorage.setItem("darkMode", "false");
+      element.classList.remove("dark");
+    } else {
+      setDarkMode(localStorage.getItem("darkMode") === "true");
+    }
+  }, [darkMode]);
+
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-20">
+    <div className="dark:text-slate-900 dark:bg-white fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-20">
       <div>
         <img src={logo} alt="Logo Image" className="w-12"></img>
       </div>
@@ -50,6 +72,15 @@ const NavBar = () => {
             Contact
           </Link>
         </li>
+        <li>
+          <button onClick={switchMode}>
+            {!darkMode ? (
+              <BsSun className="cursor-pointer hover:text-blue-500" />
+            ) : (
+              <BiSolidMoon className="cursor-pointer hover:text-blue-500" />
+            )}
+          </button>
+        </li>
       </ul>
 
       {/* Hamburger */}
@@ -65,7 +96,7 @@ const NavBar = () => {
         className={
           !nav
             ? "hidden"
-            : " absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center "
+            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center "
         }
       >
         <li className="py-6 text-4xl">
