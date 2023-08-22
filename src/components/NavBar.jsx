@@ -54,7 +54,11 @@ const NavBar = () => {
 
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars className="cursor-pointer"/> : <FaTimes className="cursor-pointer"/>}
+        {!nav ? (
+          <FaBars className="cursor-pointer" />
+        ) : (
+          <FaTimes className="cursor-pointer" />
+        )}
       </div>
       {/* Mobile menu */}
       <ul
@@ -109,16 +113,18 @@ const NavBar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#9E0059]">
-            <a
-              className="flex justify-between items-start w-full text-gray-300"
-              // TODO: fix link on email
-              href="#"
-            >
-              Email
-              <HiOutlineMail size={30} />
-            </a>
-          </li>
+          <Link to="contact" smooth={true} duration={500}>
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#9E0059]">
+              <a
+                className="flex justify-between items-start w-full text-gray-300"
+                // TODO: fix link on email
+                href="#"
+              >
+                Email
+                <HiOutlineMail size={30} />
+              </a>
+            </li>
+          </Link>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FF0054]">
             <a
               className="flex justify-between items-start w-full text-gray-300"
