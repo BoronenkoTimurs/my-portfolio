@@ -96,7 +96,7 @@ const NavBar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center "
+            : "dark:bg-white dark:text-slate-900 absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center "
         }
       >
         <li className="py-6 text-4xl">
@@ -123,6 +123,15 @@ const NavBar = () => {
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
+        </li>
+        <li>
+          <button onClick={switchMode}>
+            {!darkMode ? (
+              <BsSun className="cursor-pointer hover:text-blue-500" />
+            ) : (
+              <BiSolidMoon className="cursor-pointer hover:text-blue-500" />
+            )}
+          </button>
         </li>
       </ul>
       {/* Social icon */}
