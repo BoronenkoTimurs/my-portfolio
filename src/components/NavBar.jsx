@@ -12,7 +12,7 @@ import { BsSun } from "react-icons/bs";
 import { BiSolidMoon } from "react-icons/bi";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import logo from "../assets/logo1.png";
+import logo from "../assets/logo-nav-bar.JPG";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
