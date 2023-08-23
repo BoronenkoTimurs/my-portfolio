@@ -8,6 +8,7 @@ import Tailwind from "../assets/tailwind.png";
 import Jira from "../assets/jira.png";
 import Vue from "../assets/vue.png";
 import TypeScript from "../assets/typescript.png";
+import Trello from '../assets/trello.png'
 
 const Skills = () => {
   return (
@@ -50,14 +51,17 @@ const Skills = () => {
             <p className="my-4">CSS</p>
           </div>
           <div className="dark:shadow-[#c5c6c7] shadow-md shadow-[#040c16] flex flex-col  justify-center hover:scale-110 duration-500 cursor-pointer">
+            <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
+            <p className="my-4">GITHUB</p>
+          </div>
+          <div className="dark:shadow-[#c5c6c7] shadow-md shadow-[#040c16] flex flex-col  justify-center hover:scale-110 duration-500 cursor-pointer">
             <img className="w-20 mx-auto" src={Jira} alt="HTML icon" />
             <p className="my-4">JIRA</p>
           </div>
           <div className="dark:shadow-[#c5c6c7] shadow-md shadow-[#040c16] flex flex-col  justify-center hover:scale-110 duration-500 cursor-pointer">
-            <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
-            <p className="my-4">GITHUB</p>
+            <img className="w-20 mx-auto" src={Trello} alt="HTML icon" />
+            <p className="my-4">TRELLO</p>
           </div>
-          {/* TODO: fix TS picture */}
           <div className="dark:shadow-[#c5c6c7] shadow-md shadow-[#040c16] flex flex-col  justify-center hover:scale-110 duration-500 cursor-pointer">
             <img className="w-20 mx-auto" src={TypeScript} alt="HTML icon" />
             <p className="my-4">TypeScript</p>
