@@ -140,7 +140,7 @@ const NavBar = () => {
           <li className="pl-4 pr-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#390099]">
             <a
               className="flex justify-between items-start w-full text-gray-300"
-              href="linkedin.com/in/timur-boronenko-7586b326a"
+              href="https://www.linkedin.com/in/timur-boronenko-7586b326a/"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
