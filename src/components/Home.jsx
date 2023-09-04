@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="dark:text-slate-900 dark:bg-white w-full min-h-screen bg-[#0a192f]"
+      className="dark:text-slate-900 dark:bg-white w-full min-h-screen pt-11 bg-[#0a192f]"
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-4 flex flex-col justify-center h-full">
