@@ -135,28 +135,26 @@ const NavBar = () => {
         </li>
       </ul>
       {/* Social icon */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      {/* TODO: place soc media info on the bottom of screen when it less then lg */}
+      <div className="flex fixed top-[35%] -right-28  lg:left-0 ">
         <ul>
-          <li className="pl-4 pr-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#390099]">
+          <li className="social-media bg-[#390099]">
             <a
-              className="flex justify-between items-start w-full text-gray-300"
               href="https://www.linkedin.com/in/timur-boronenko-7586b326a/"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="pl-4 pr-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6C0079]">
+          <li className="social-media bg-[#6C0079]">
             <a
-              className="flex justify-between items-start w-full text-gray-300"
               href="https://github.com/BoronenkoTimurs"
             >
               Github <FaGithub size={30} />
             </a>
           </li>
           <Link to="contact" smooth={true} duration={500}>
-            <li className="pl-4 pr-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#9E0059]">
+            <li className="social-media bg-[#9E0059]">
               <a
-                className="flex justify-between items-start w-full text-gray-300"
                 href="#"
               >
                 Email
@@ -164,9 +162,8 @@ const NavBar = () => {
               </a>
             </li>
           </Link>
-          <li className="pl-4 pr-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FF0054]">
+          <li className="social-media bg-[#FF0054]">
             <a
-              className="flex justify-between items-start w-full text-gray-300"
               href="https://drive.google.com/file/d/12DGGR1IKyzSQGqV-KAAv3ILNNZIJKDgI/view?usp=sharing"
             >
               Resume <BsFillPersonLinesFill size={30} />
