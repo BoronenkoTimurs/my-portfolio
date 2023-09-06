@@ -6,7 +6,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 function App() {
   return (
-    <div >
+    <div className="bg-[#0a192f] dark:bg-white">
       <NavBar />
       <Home />
       <About />
