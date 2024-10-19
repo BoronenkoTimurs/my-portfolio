@@ -135,12 +135,14 @@ const NavBar = () => {
         <ul>
           <li className='social-media bg-[#390099]'>
             <a target='blank' href='https://www.linkedin.com/in/timur-boronenko-7586b326a/'>
-              LinkedIn <FaLinkedin size={30}/>
+              LinkedIn 
+              <FaLinkedin size={30}/>
             </a>
           </li>
           <li className='social-media bg-[#6C0079]'>
             <a target='blank' href='https://github.com/BoronenkoTimurs'>
-              Github <FaGithub size={30}/>
+              Github 
+              <FaGithub size={30}/>
             </a>
           </li>
           <Link to='contact' smooth={true} duration={500}>
@@ -151,7 +153,8 @@ const NavBar = () => {
           </Link>
           <li className='social-media bg-[#FF0054]'>
             <a target='blank' href='https://drive.google.com/file/d/1uiks9DeB0yHd3ZIrWalylsaQrhTHAFJH/view?usp=sharing'>
-              Resume <BsFillPersonLinesFill size={30}/>
+              Resume
+              <BsFillPersonLinesFill size={30}/>
             </a>
           </li>
         </ul>
