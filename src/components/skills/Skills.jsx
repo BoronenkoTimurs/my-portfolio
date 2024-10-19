@@ -25,6 +25,7 @@ import Kibana from '../../assets/skills/devops/kibana.png';
 import Miro from '../../assets/skills/useful-skills/miro.png';
 import Lucidechart from '../../assets/skills/useful-skills/lucidchart.png';
 import Figma from '../../assets/skills/useful-skills/figma.jpg';
+import GCC from '../../assets/skills/devops/gcc.jpeg';
 
 const Skills = () => {
   return (
@@ -67,6 +68,7 @@ const Skills = () => {
             <SkillCard img={Jenkins} name='Jenkins'/>
             <SkillCard img={Grafana} name='Grafana'/>
             <SkillCard img={Kibana} name='Kibana'/>
+            <SkillCard img={GCC} name='Google Cloud Storage'/>
           </div>
 
           <h1 className='skill-title'>Useful-skills:</h1>
