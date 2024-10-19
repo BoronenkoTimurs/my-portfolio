@@ -1,3 +1,7 @@
+## Project Preview
+
+Hosted project -> [https://tbpage.netlify.app/](https://tbpage.netlify.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
