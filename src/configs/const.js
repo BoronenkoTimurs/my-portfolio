@@ -55,4 +55,18 @@ export const PROJECTS = [
     codeLink: "https://github.com/BoronenkoTimurs/ecommerce-documentation",
     backgroundImage: EcommerceDocs,
   },
+  {
+    id: 8,
+    title: "Travel webpage parser - Server(Express)",
+    demoLink: "#",
+    codeLink: "https://github.com/BoronenkoTimurs/parsers-server",
+    backgroundImage: NotFound,
+  },
+  {
+    id: 9,
+    title: "Travel webpage parser - Client(React)",
+    demoLink: "#",
+    codeLink: "https://github.com/BoronenkoTimurs/parser-client",
+    backgroundImage: NotFound,
+  },
 ];
